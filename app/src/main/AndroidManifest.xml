@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="grupohumeau.sirenaapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar"
+         >
+        <activity
+            android:name=".Controlador.Vista.Vista.modelo.SplashScreenActivity"
+            android:label="@string/app_name" >
+               <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+             <activity
+            android:name=".Controlador.Vista.Vista.modelo.Inicio"
+            android:label="@string/app_name"
+           />
+
+    </application>
+
+</manifest>
